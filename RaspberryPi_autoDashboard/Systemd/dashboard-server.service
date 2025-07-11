@@ -1,0 +1,13 @@
+[Unit]
+Description=FastAPI + Socket.IO Dashboard Server (Uvicorn)
+After=network.target redis.service
+
+[Service]
+WorkingDirectory=/home/user/Desktop/Server
+ExecStart=/home/user/Desktop/Server/venv/bin/uvicorn server:asgi_app --host 0.0.0.0 --port=8000
+Restart=always
+User=user
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

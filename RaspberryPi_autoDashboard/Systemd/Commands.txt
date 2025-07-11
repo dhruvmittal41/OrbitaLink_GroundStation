@@ -1,0 +1,7 @@
+1. sudo nano /etc/systemd/system/dashboard-server.service => Create the systemd service file
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable dashboard-server
+sudo systemctl start dashboard-server
+sudo systemctl status dashboard-server

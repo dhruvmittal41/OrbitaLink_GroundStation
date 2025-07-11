@@ -1,0 +1,3 @@
+mkdir -p ~/.config/lxsession/LXDE-pi/
+cp ../kiosk/autostart ~/.config/lxsession/LXDE-pi/autostart
+sudo reboot

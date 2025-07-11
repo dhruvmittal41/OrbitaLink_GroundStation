@@ -1,0 +1,11 @@
+socketio-client==0.7.2
+geocoder==1.38.1
+requests==2.31.0
+skyfield==1.45
+Adafruit-DHT==1.4.0
+Adafruit-Blinka==8.34.1
+adafruit-circuitpython-as5600==1.0.12
+RPi.GPIO==0.7.1
+smbus2==0.4.3
+board==1.0.0
+busio==1.0.3
