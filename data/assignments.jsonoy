@@ -1,0 +1,9 @@
+[
+    {
+        "satellite": "NOAA 15",
+        "timestamp": 1761785505.568122,
+        "start_time": "2025-10-30T00:51:46Z",
+        "assigned_fu": "FU1",
+        "fu_ip": "192.168.1.100"
+    }
+]

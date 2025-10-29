@@ -1,0 +1,31 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>CU Dashboard</title>
+	<script src = "https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+	<h1> Central Unit Dashboard</h1>
+	<pre id = "log"></pre>
+	<script>
+		const socket = io();
+		const log = document.getElementBYId('log');
+
+		socket.on("connect", () => {
+			log.textContent += `Connected to ///cu server\n`;
+			socket.emit("request_clients");
+		});
+
+		socket.on("log", (msg) => {
+			log.textContent += msg + "\n";
+		});
+
+		socket.on("client_data_update", (data) => {
+			log.textContent += "\n--- Field Units ---\n";
+			data.clients.forEach(fu => {
+				log.textContent += `\n ${fu.fu_id}\n  GPS: ${JSON.stringify(fu.gps || {})}\nAZ: ${fu.az}, EL: ${fu.el}\nSat: ${fu.satellite}\n`;
+				});
+			});
+	</script>
+</body>
+</html>

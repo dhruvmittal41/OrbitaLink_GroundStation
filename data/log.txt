@@ -1,0 +1,189 @@
+[2025-07-23T08:59:27.616062] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-23T15:25:36.175086] [ERROR] schedule.json not found.
+[2025-07-23T16:28:49.241694] [ERROR] schedule.json not found.
+[2025-07-23T16:28:49.241858] [ERROR] fu_registry.json not found.
+[2025-07-25T03:00:17.142199] [START] FU Registry Server started in port 9999.
+[2025-07-25T03:03:19.751980] [START] FU Registry Server started in port 9999.
+[2025-07-28T14:17:29.512815] [ERROR] schedule.json not found.
+[2025-07-28T14:17:29.513593] [ERROR] fu_registry.json not found.
+[2025-07-28T14:18:32.028850] [ERROR] schedule.json not found.
+[2025-07-28T14:18:32.029288] [ERROR] fu_registry.json not found.
+[2025-07-28T14:20:23.686094] [ERROR] schedule.json not found.
+[2025-07-28T14:20:23.686352] [ERROR] fu_registry.json not found.
+[2025-07-28T14:22:23.976133] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T14:22:26.019368] [ERROR] schedule.json not found.
+[2025-07-28T14:22:26.019505] [ERROR] fu_registry.json not found.
+[2025-07-28T14:23:13.569507] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T14:23:15.464444] [ERROR] schedule.json not found.
+[2025-07-28T14:23:15.464587] [ERROR] fu_registry.json not found.
+[2025-07-28T14:28:01.189343] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T14:28:03.254893] [ERROR] schedule.json not found.
+[2025-07-28T14:28:03.255157] [ERROR] fu_registry.json not found.
+[2025-07-28T15:09:25.871590] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T15:09:27.862823] [ERROR] schedule.json not found.
+[2025-07-28T15:09:27.862995] [ERROR] fu_registry.json not found.
+[2025-07-28T15:11:04.254050] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T15:11:05.591256] [ERROR] Satellite 'NOAA15' not found in TLE data.
+[2025-07-28T15:11:06.174578] [ERROR] schedule.json not found.
+[2025-07-28T15:11:06.174820] [ERROR] fu_registry.json not found.
+[2025-07-28T15:22:15.670592] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T15:22:17.186967] [ERROR] Satellite 'NOAA15' not found in TLE data.
+[2025-07-28T15:22:17.750534] [ERROR] schedule.json not found.
+[2025-07-28T15:22:17.750696] [ERROR] fu_registry.json not found.
+[2025-07-28T15:24:56.374968] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-28T15:24:57.708168] [ERROR] Satellite 'NOAA15' not found in TLE data.
+[2025-07-28T15:24:58.327961] [ERROR] schedule.json not found.
+[2025-07-28T15:24:58.328117] [ERROR] fu_registry.json not found.
+[2025-07-29T15:15:56.065602] Satellite name 'NOAA15' saved to data/satellite_name.json
+[2025-07-29T15:15:57.459084] [ERROR] Satellite 'NOAA15' not found in TLE data.
+[2025-07-29T15:15:58.056476] [ERROR] schedule.json not found.
+[2025-07-29T15:15:58.056644] [ERROR] fu_registry.json not found.
+[2025-07-29T15:19:52.365571] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-29T15:19:54.390642] [ERROR] schedule.json not found.
+[2025-07-29T15:19:54.390793] [ERROR] fu_registry.json not found.
+[2025-07-29T15:22:20.898888] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-29T15:22:22.942506] [ERROR] schedule.json not found.
+[2025-07-29T15:22:22.942661] [ERROR] fu_registry.json not found.
+[2025-07-29T15:29:48.270055] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-29T15:29:50.340667] [ERROR] schedule.json not found.
+[2025-07-29T15:29:50.340818] [ERROR] fu_registry.json not found.
+[2025-07-29T15:35:27.811946] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-29T15:35:29.819403] [ERROR] schedule.json not found.
+[2025-07-29T15:35:29.819582] [ERROR] fu_registry.json not found.
+[2025-07-30T06:43:36.445869] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T06:43:38.462786] [ERROR] schedule.json not found.
+[2025-07-30T06:43:38.462981] [ERROR] fu_registry.json not found.
+[2025-07-30T06:50:53.422576] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T06:50:55.480780] [ERROR] schedule.json not found.
+[2025-07-30T06:50:55.481009] [ERROR] fu_registry.json not found.
+[2025-07-30T06:55:57.182707] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T06:55:59.184241] [ERROR] schedule.json not found.
+[2025-07-30T06:55:59.184400] [ERROR] fu_registry.json not found.
+[2025-07-30T06:57:37.088907] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T06:57:39.132019] [ERROR] schedule.json not found.
+[2025-07-30T06:57:39.132215] [ERROR] fu_registry.json not found.
+[2025-07-30T08:08:27.673198] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T08:08:29.716828] [ERROR] schedule.json not found.
+[2025-07-30T08:08:29.716982] [ERROR] fu_registry.json not found.
+[2025-07-30T10:07:25.143336] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:07:27.144794] [ERROR] schedule.json not found.
+[2025-07-30T10:07:27.144947] [ERROR] fu_registry.json not found.
+[2025-07-30T10:12:08.969902] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:12:10.583124] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:12:10.968943] [ERROR] fu_registry.json not found.
+[2025-07-30T10:15:07.766839] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:15:09.275092] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:15:09.674595] [ERROR] fu_registry.json not found.
+[2025-07-30T10:20:50.167747] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:20:51.862976] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:20:52.160936] [ERROR] fu_registry.json not found.
+[2025-07-30T10:21:42.308468] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:21:43.929993] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:23:03.570904] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:23:05.194554] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:24:19.126642] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:24:20.713616] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:25:20.647343] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:25:22.271287] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:27:14.622705] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:27:16.229846] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:31:15.868928] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:31:17.565577] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:31:17.852848] [WARNING] Could not assign pass at 2025-07-30T12:16:37Z (all FUs busy)
+[2025-07-30T10:31:17.853205] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:31:17.853553] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T10:37:00.759117] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:37:02.349890] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:37:02.758579] [WARNING] Could not assign pass at 2025-07-30T12:16:38Z (all FUs busy)
+[2025-07-30T10:37:02.759048] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:37:02.759525] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T10:40:37.583388] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:40:39.306903] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:40:39.610263] [WARNING] Could not assign pass at 2025-07-30T12:16:37Z (all FUs busy)
+[2025-07-30T10:40:39.610764] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:40:39.611384] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T10:43:58.271649] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:44:00.014199] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:44:00.299881] [WARNING] Could not assign pass at 2025-07-30T12:16:38Z (all FUs busy)
+[2025-07-30T10:44:00.300643] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:44:00.301306] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T10:47:49.150850] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:47:50.754448] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:48:38.463307] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:48:40.070980] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:48:40.455578] [WARNING] Could not assign pass at 2025-07-30T12:16:37Z (all FUs busy)
+[2025-07-30T10:48:40.456117] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:48:40.456550] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T10:51:23.771173] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T10:51:25.344789] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T10:51:25.805695] [WARNING] Could not assign pass at 2025-07-30T12:16:37Z (all FUs busy)
+[2025-07-30T10:51:25.806117] [INFO] 0 passes assigned and saved to assignments.json
+[2025-07-30T10:51:25.806552] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T11:03:46.328869] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:03:47.923559] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:11:43.885390] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:11:45.562058] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:12:33.479389] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:12:35.059468] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:16:42.465658] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:16:44.027868] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:18:07.992158] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:18:09.605342] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:21:26.324889] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:21:27.979481] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:22:27.729526] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:22:29.308791] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T11:41:14.953642] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T11:41:16.837107] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T12:04:58.974795] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T12:05:00.628845] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T12:13:48.174400] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T12:13:49.780546] Generated and saved 3 pass entries to data/schedule.json
+[2025-07-30T12:21:19.396384] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T12:21:20.983975] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T12:21:51.445673] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T12:21:53.034940] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T12:21:53.456437] [ASSIGNMENT] NOAA 15 at 2025-07-30T13:52:49Z --> FU1
+[2025-07-30T12:21:53.456998] [INFO] 1 passes assigned and saved to assignments.json
+[2025-07-30T12:21:53.457512] [INFO] FU registry updated with new occupied slots.
+[2025-07-30T17:08:50.627831] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T17:08:52.670438] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T17:21:30.372307] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T17:21:32.107914] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T17:23:23.984234] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T17:23:25.642038] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T17:25:19.484199] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T17:25:21.104579] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T17:26:23.300956] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-07-30T17:26:25.135123] Generated and saved 2 pass entries to data/schedule.json
+[2025-07-30T17:26:25.606725] [ASSIGNMENT] NOAA 15 at 2025-07-31T02:14:01Z --> FU1
+[2025-07-30T17:26:25.607216] [INFO] 1 passes assigned and saved to assignments.json
+[2025-07-30T17:26:25.607687] [INFO] FU registry updated with new occupied slots.
+[2025-08-05T15:16:42.469774] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-08-05T15:16:44.641856] Generated and saved 4 pass entries to data/schedule.json
+[2025-08-28T04:29:46.185485] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-08-28T04:29:47.802646] Generated and saved 4 pass entries to data/schedule.json
+[2025-08-28T04:30:58.948648] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-08-28T04:31:00.700369] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T14:55:49.220277] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T14:55:51.360957] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:00:44.059522] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:00:46.177401] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:07:44.756239] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:07:46.445881] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:08:31.707966] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:08:33.275843] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:09:22.983304] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:09:24.699677] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:11:11.079837] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:11:12.695925] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:11:55.755977] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:11:57.368062] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:14:22.974629] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:14:24.587662] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:16:34.793484] Satellite name 'NOAA 15' saved to data/satellite_name.json
+[2025-10-29T15:16:36.403295] Generated and saved 4 pass entries to data/schedule.json
+[2025-10-29T15:16:36.827313] [ASSIGNMENT] NOAA 15 at 2025-10-30T00:51:46Z --> FU1
+[2025-10-29T15:16:36.827823] [INFO] 1 passes assigned and saved to assignments.json
+[2025-10-29T15:16:36.828309] [INFO] FU registry updated with new occupied slots.
+[2025-10-29T15:19:35.505263] [START] FU Registry Server started in port 9999.
