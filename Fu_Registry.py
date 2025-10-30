@@ -12,11 +12,20 @@ UDP_PORT = 8080
 
 fus = {}
 
+
 def load_registry():
     global fus
     if os.path.exists(REGISTRY_FILE):
-        with open(REGISTRY_FILE, "r") as f:
-            fus = json.load(f)
+        try:
+            with open(REGISTRY_FILE, "r") as f:
+                content = f.read().strip()
+                if content:  # File exists and not empty
+                    fus = json.loads(content)
+                else:
+                    fus = {}  # Empty file -> initialize empty dict
+        except json.JSONDecodeError:
+            print(f"[WARNING] {REGISTRY_FILE} is malformed. Resetting.")
+            fus = {}
     else:
         fus = {}
 
