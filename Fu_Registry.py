@@ -1,84 +1,65 @@
+#!/usr/bin/env python3
 import socket
 import json
-from pathlib import Path
-from log_utils import log_event
+import time
+from datetime import datetime, timedelta, timezone
+import threading
+import os
 
+REGISTRY_FILE = "data/active_fus.json"
+UDP_IP = "0.0.0.0"
+UDP_PORT = 9999
 
-PORT = 9999
-BUFFER_SIZE = 1024
-FU_REGISTRY_FILE = Path("data/fu_registry.json")
+fus = {}
 
+def load_registry():
+    global fus
+    if os.path.exists(REGISTRY_FILE):
+        with open(REGISTRY_FILE, "r") as f:
+            fus = json.load(f)
+    else:
+        fus = {}
 
-def load_fu_registry():
+def save_registry():
+    with open(REGISTRY_FILE, "w") as f:
+        json.dump(fus, f, indent=4)
 
-	if FU_REGISTRY_FILE.exists():
-		with FU_REGISTRY_FILE.open("r") as f:
-			return json.load(f)
-	return{}
+def remove_inactive():
+    while True:
+        now = datetime.now(timezone.utc)
+        to_remove = []
+        for fid, data in fus.items():
+            last_seen = datetime.fromisoformat(data["last_seen"])
+            if (now - last_seen) > timedelta(minutes=5):
+                print(f"[TIMEOUT] Removing inactive FU {fid}")
+                to_remove.append(fid)
+        for fid in to_remove:
+            del fus[fid]
+        save_registry()
+        time.sleep(60)
 
+def start_registry():
+    load_registry()
+    threading.Thread(target=remove_inactive, daemon=True).start()
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock.bind((UDP_IP, UDP_PORT))
+    print(f"[LISTENING] FU Registry running on UDP {UDP_PORT}")
 
-def save_fu_registry(registry):
-
-
-	FU_REGISTRY_FILE.parent.mkdir(parents=True, exist_ok=True)
-	with FU_REGISTRY_FILE.open("w") as f:
-		json.dump(registry, f, indent=4)
-	log_event(f"[INFO] FU registry updated with {len(registry)} entries.")
-
-def get_next_fu_id(registry):
-
-	existing_ids = [int(k[2:]) for k in registry.keys() if k.startswith("FU")]
-	next_id = max(existing_ids, default=0) + 1
-	return f"FU{next_id}"
-
-def handle_fu_registration(data, addr, registry):
-
-	try:
-		payload = json.loads(data.decode())
-	except json.JSONDecodeError:
-		log_event(f"[ERROR] Invalid JSON from {addr}: {data}")
-		return registry
-
-	ip = addr[0]
-	fu_id = payload.get("fu_id")
-	occupied  = payload.get("occupied_slots", [])
-
-	if not fu_id:
-		fu_id = get_next_fu(registry)
-		log_event(f"[NEW FU] Assigned ID {fu_id} to {ip}")
-	else:
-		log_event(f"[FU ONLINE] {fu_id} ({ip})")
-
-	registry[fu_id] = {
-		"ip": ip,
-		"occupied_slots": occupied
-	}
-
-	return registry
-
-
-def start_fu_registry_server():
-
-	registry = load_fu_registry()
-	log_event(f"[START] FU Registry Server started in port {PORT}.")
-
-	with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as server:
-		server.bind(("",PORT))
-		while True:
-			try:
-				data,addr = server.recvfrom(BUFFER_SIZE)
-				registry = handle_fu_registration(data, addr, registry)
-				save_fu_registry(registry)
-
-			except keyboardInterrupt:
-				print("\n[SHUTDOWN] FU registry Server stopped. ")
-				log_event("[STOP] FU registry server terminanted by user. ")
-				break
-			except Exception as e:
-				log_event(f"[ERROR] Exception in registry loop: {e}")
+    while True:
+        data, addr = sock.recvfrom(4096)
+        try:
+            msg = json.loads(data.decode())
+            fid = msg.get("fu_id")
+            if fid:
+                fus[fid] = {
+                    "ip": addr[0],
+                    "last_seen": datetime.now(timezone.utc).isoformat(),
+                    "occupied_slots": msg.get("occupied_slots", [])
+                }
+                save_registry()
+                print(f"[UPDATE] FU {fid} active @ {addr[0]}")
+        except Exception as e:
+            print(f"[ERROR] {e}")
 
 if __name__ == "__main__":
-	start_fu_registry_server()
-
-
-
+    start_registry()
