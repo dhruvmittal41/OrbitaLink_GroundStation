@@ -8,7 +8,7 @@ import os
 
 REGISTRY_FILE = "data/active_fus.json"
 UDP_IP = "0.0.0.0"
-UDP_PORT = 9999
+UDP_PORT = 8080
 
 fus = {}
 
