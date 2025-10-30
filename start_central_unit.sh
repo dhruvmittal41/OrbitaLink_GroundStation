@@ -1,6 +1,6 @@
 #!/bin/bash
 # ===========================================
-# Central Unit Startup Script
+# Central Unit Startup Script  
 # ===========================================
 
 set -e  # Exit immediately on error
