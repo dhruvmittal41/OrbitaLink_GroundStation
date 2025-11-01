@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timedelta, timezone
 from skyfield.api import EarthSatellite, load
+from skyfield.api import wgs84
 
 # ==============================
 # CONFIGURATION
@@ -23,11 +24,7 @@ def generate_schedule(selected_satellites):
     """Generate a 24-hour visibility schedule for selected satellites."""
     ts = load.timescale()
     eph = load('de421.bsp')
-    location = eph['earth'].topos(
-        latitude_degrees=LAT,
-        longitude_degrees=LON,
-        elevation_m=ALT
-    )
+    location = wgs84.latlon(LAT, LON, ALT)
 
     # Load full TLE dataset
     with open(SATELLITES_FILE, "r") as f:
